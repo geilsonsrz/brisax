@@ -1,20 +1,22 @@
 .container00{
 
     &.container01{
-        background-image: url(../../imagens/img-bg_inicial.png);
+        background-color: black;
     }
 
     &.container02{
-        background-image: url(../../imagens/img-bg_inicial.png);
+        background-color: blue;
     }
 
     &.container03{
-        background-image: url(../../imagens/img-bg_inicial.png);
+        background-color: black;
     }
 
     &.container04{
-        background-image: url(../../imagens/img-bg_inicial.png);
+        background-color: blue;
     }
 }
 
-
+.titlePadding{
+    padding-top: 10em;
+}

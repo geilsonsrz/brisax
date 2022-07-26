@@ -18,7 +18,7 @@
 .arrowDown {
   display: inline-block;
   width: 1.5em;
-  margin-top: 0.5em;
+  margin-top: 1.5em;
 }
 
 .logoPc {
@@ -28,16 +28,20 @@
 }
 
 .container00.container01 {
-  background-image: url(../../imagens/img-bg_inicial.png);
+  background-color: black;
 }
 .container00.container02 {
-  background-image: url(../../imagens/img-bg_inicial.png);
+  background-color: blue;
 }
 .container00.container03 {
-  background-image: url(../../imagens/img-bg_inicial.png);
+  background-color: black;
 }
 .container00.container04 {
-  background-image: url(../../imagens/img-bg_inicial.png);
+  background-color: blue;
+}
+
+.titlePadding {
+  padding-top: 10em;
 }
 
 /*# sourceMappingURL=style.css.map */
