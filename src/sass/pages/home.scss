@@ -1,22 +1,23 @@
 .container00{
-
     &.container01{
-        background-color: black;
+        background-image: url(../imagens/home/teste.gif);
     }
-
     &.container02{
-        background-color: blue;
+        background-image: url(../imagens/home/img-bg_mission.png);
     }
-
     &.container03{
-        background-color: black;
+        background-image: url(../imagens/home/img-bg_tur.png);
     }
-
     &.container04{
-        background-color: blue;
+        background-image: url(../imagens/home/img-bg_FX-28.png);
     }
 }
 
 .titlePadding{
     padding-top: 10em;
 }
+
+.textBlack {
+    color: black;
+}
+

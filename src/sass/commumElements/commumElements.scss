@@ -13,11 +13,27 @@
 .arrowDown {
     display: inline-block;
     width: 1.5em;
-    margin-top: 1.5em;
+    margin-top: 3em;
 }
 
 .logoPc{
     width: 15em;
     border-radius: .5em;
     margin: 0 3em 0 -1em;
+}
+
+body::-webkit-scrollbar {
+    width: .4em;
+}
+body::-webkit-scrollbar-track{
+    padding: .1em;
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    margin: .1em;
+    border-radius: 5em;
+    background-color: #303030;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a0;
 }

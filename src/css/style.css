@@ -18,7 +18,7 @@
 .arrowDown {
   display: inline-block;
   width: 1.5em;
-  margin-top: 1.5em;
+  margin-top: 3em;
 }
 
 .logoPc {
@@ -27,21 +27,44 @@
   margin: 0 3em 0 -1em;
 }
 
-.container00.container01 {
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  padding: 0.1em;
   background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  margin: 0.1em;
+  border-radius: 5em;
+  background-color: #303030;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0;
+}
+
+.container00.container01 {
+  background-image: url(../imagens/home/teste.gif);
 }
 .container00.container02 {
-  background-color: blue;
+  background-image: url(../imagens/home/img-bg_mission.png);
 }
 .container00.container03 {
-  background-color: black;
+  background-image: url(../imagens/home/img-bg_tur.png);
 }
 .container00.container04 {
-  background-color: blue;
+  background-image: url(../imagens/home/img-bg_FX-28.png);
 }
 
 .titlePadding {
   padding-top: 10em;
+}
+
+.textBlack {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
