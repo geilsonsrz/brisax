@@ -1,6 +1,28 @@
+body::-webkit-scrollbar {
+    width: .4em;
+}
+body::-webkit-scrollbar-track{
+    padding: .1em;
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    margin: .1em;
+    border-radius: 5em;
+    background-color: $copy-color;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: $link-hover;
+}
+
 .header {
     font-size: .8em;
     font-weight: bold;
+
+    .navItem {
+        &:hover{
+            color: $link-hover;
+        }
+    }
 }
 
 .container00 {
@@ -8,6 +30,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.btn {
+    padding: $padding-button;
 }
 
 .arrowDown {
@@ -22,18 +48,27 @@
     margin: 0 3em 0 -1em;
 }
 
-body::-webkit-scrollbar {
-    width: .4em;
-}
-body::-webkit-scrollbar-track{
-    padding: .1em;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-weight: 500;
     background-color: black;
-}
-body::-webkit-scrollbar-thumb {
-    margin: .1em;
-    border-radius: 5em;
-    background-color: #303030;
-}
-body::-webkit-scrollbar-thumb:hover {
-    background-color: #a0a0a0;
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+    .copyGAS {
+        color: $copy-color;
+    }
+
+
+
 }
