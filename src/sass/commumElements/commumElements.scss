@@ -69,6 +69,42 @@ body::-webkit-scrollbar-thumb:hover {
         color: $copy-color;
     }
 
+}
 
+// Media querys
+@media (max-width: 800px) {
+    .container00 {
+        background-position: right;
+    }
+}
+@media (max-width: 450px) {
+    .btn {
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, .2);
+    }
+    .container02 .btn,
+    .container03 .btn {
+        color: black;
+    }
+    .container00 {
+        & .titlePadding p {
+            color: black;
+            border-radius: 1em;
+            padding: .5em;
+            text-shadow: 0 0 .2em #ffffff;
+        }
+    }
+    .logoPc {
+        width: 11em;
+        margin-top: 1em;
+    }
+    .footer {
+        font-size: .7em;
+    }
+}
 
+@media (max-width: 350px) {
+    .logoPc{
+        width: 9em;
+    }
 }
