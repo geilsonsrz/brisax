@@ -72,9 +72,15 @@ body::-webkit-scrollbar-thumb:hover {
   color: #555252;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .container00 {
     background-position: right;
+  }
+  .container00 .titlePadding p {
+    color: black;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-shadow: 0 0 0.2em #ffffff;
   }
 }
 @media (max-width: 450px) {
@@ -86,13 +92,6 @@ body::-webkit-scrollbar-thumb:hover {
   .container02 .btn,
 .container03 .btn {
     color: black;
-  }
-
-  .container00 .titlePadding p {
-    color: black;
-    border-radius: 1em;
-    padding: 0.5em;
-    text-shadow: 0 0 0.2em #ffffff;
   }
 
   .logoPc {
