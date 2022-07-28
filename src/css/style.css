@@ -140,5 +140,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: auto;
   }
 }
+.container00.container05 {
+  background-image: url(../imagens/fx-28/img-bg_nave1.png);
+}
 
 /*# sourceMappingURL=style.css.map */
