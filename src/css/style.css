@@ -39,6 +39,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .btn {
   padding: 1em 2em;
+  border: 0.2em solid white;
 }
 
 .arrowDown {
