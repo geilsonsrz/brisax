@@ -1,6 +1,9 @@
 .container00 {
     &.container05 {
         background-image: url(../imagens/fx-28/img-bg_nave1.png);
+        .txt01 {
+            width: 50%;
+        }
     }
     &.container06 {
         background-image: url(../imagens/fx-28/img-bg_nave2.png);
