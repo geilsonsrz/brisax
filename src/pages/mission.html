@@ -5,25 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--- 
-        Icon
-    -->
+    <!--- Icon -->
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
-    <!--
-        Bootstrap
-    -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>BrisaX - Missions</title>
-    <!-- 
-        CSS 
-    -->
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- AOS -->
+
+    <title>BrisaX - FX-28</title>
+
 </head>
 
 <body>
-    <div class="container-fluid container00 container01">
+    <!-- Container Sec05 - Header -->
+    <div class="container-fluid container00 container06">
         <!--- Container responsável pelo cabeçalho -->
         <div class="container">
             <header class="header">
@@ -40,32 +37,88 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active navItem" aria-current="page" 
-                                    href="../../index.html">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active navItem" 
-                                    aria-current="page">MISSON</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active navItem" 
-                                    href="./humanSpace.html">HUMAN SPACE
-                                        FLIGHT</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link active navItem" aria-current="page"
-                                        href="./fx-28.html">FX-28</a>
+                                        href="../../index.html">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navItem" aria-current="page">MISSON</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navItem" href="./humanSpace.html">HUMAN SPACE FLIGHT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navItem" aria-current="page" href="./fx-28.html">FX-28</a>
                                 </li>
                             </ul>
                         </div>
                 </nav>
             </header>
         </div>
-        <!-- Div carousel -->
-        <div class="container-fluid container00 container02">
+        <div class="container titleContent">
+            <p class="h1 titleMission">Missions</p>
         </div>
+        <div class="container titlePadding">
+            <p class="h5 txt01">
+                PRINCIPAIS OBJETIVOS DAS MISSÕES
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione repellat nostrum libero laboriosam atque iusto
+                explicabo molestiae velit exercitationem aspernatur fugit
+                a iste architecto, dolores sed nisi! Eum ab, sapiente, architecto
+                distinctio placeat reiciendis earum iusto ipsum unde quis officia
+                reprehenderit et aut cum nisi esse ex natus illum obcaecati!
+            </p>
+        </div>
+    </div>
 
 
+    <!-- Container Sec06 -->
+    <div class="container-fluid container00">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../imagens/home/img-bg_FX-28.png" class="d-block w-100" alt="img01">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagens/home/img-bg_mission.png" class="d-block w-100" alt="img02">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagens/home/img-bg_inicial.png" class="d-block w-100" alt="img03">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer">
+        <span class="me-4 copyGAS">Geilson A. Soares &copy; 2022</span>
+        <a href="" target="_blank" class="me-4">Instagram</a>
+        <a href="" target="_blank" class="me-4">Facebook</a>
+        <a href="" target="_blank" class="me-4">GitHub</a>
+    </footer>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- AOS script -->
 </body>
 
 </html>
