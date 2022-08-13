@@ -20,7 +20,7 @@
 
 <body>
     <!-- Container Sec01 - Header e Tela Inicial -->
-    <div class="container-fluid container00 container01">
+    <div id="home" class="container-fluid container00 container01">
         <!--- Container responsável pelo cabeçalho -->
         <div class="container">
             <header class="header">
@@ -38,19 +38,19 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link active navItem" aria-current="page"
-                                        href="./index.html">HOME</a>
+                                        href="#home">HOME</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active navItem" aria-current="page"
-                                        href="./src/pages/mission.html">MISSON</a>
+                                        href="#mission">MISSON</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active navItem" 
-                                    href="./src/pages/humanSpace.html">HUMAN SPACE FLIGHT</a>
+                                    href="#hspace">HUMAN SPACE FLIGHT</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active navItem" aria-current="page" 
-                                    href="./src/pages/fx-28.html">FX-28</a>
+                                    href="#nave">FX-28</a>
                                 </li>
                             </ul>
                         </div>
@@ -61,20 +61,17 @@
         <div class="container titlePadding">
             <p class="h5" id="launchComing">DISCOVERING NEW HORIZONS.</p>
             <p class="h1 shortTitle">
-                EXPLORING IS OUR PASSION<br>
-                TEXT 01<br>
-                TEXT 02<br>
-                TEXT 03<br>
+                EXPLORING IS OUR PASSION
             </p>
         </div>
         <!-- Seta de indicação para baixo -->
-        <div class="container text-center">
+        <div id="startArrow" class="container text-center">
             <img class="arrowDown" src="./src/imagens/arrow.gif" alt="Arrow Down" />
         </div>
     </div>
 
     <!--- Container Sec02 - Missoes -->
-    <div class="container-fluid container00 container02">
+    <div id="mission" class="container-fluid container00 container02">
         <div class="container titlePadding">
             <!--- Container responsável pela parte inciial fora o cabeçalho. Texto e botão -->
             <div class="container titlePadding">
@@ -91,7 +88,7 @@
     </div>
 
     <!--- Container Sec03 - Turismo -->
-    <div class="container-fluid container00 container03">
+    <div id="hspace" class="container-fluid container00 container03">
         <div class="container titlePadding">
             <!--- Container responsável pela parte inciial fora o cabeçalho. Texto e botão -->
             <div class="container titlePadding">
@@ -108,7 +105,7 @@
     </div>
 
     <!--- Container Sec03 - Turismo -->
-    <div class="container-fluid container00 container04">
+    <div id="nave" class="container-fluid container00 container04">
         <div class="container titlePadding">
             <!-- Titulo Nave -->
             <div class="container titleContent">
