@@ -146,17 +146,17 @@ body::-webkit-scrollbar-thumb:hover {
     width: auto;
   }
 }
-.container00.container07 {
+.container00.container09 {
   background-image: url(../imagens/mission/img-bg_nave2.png);
 }
-.container00.container07 .txt01 {
+.container00.container09 .txt01 {
   width: 50%;
 }
 
-.container00.container08 {
+.container00.container07 {
   background-image: url(../imagens/hSpace/img-bg_planet.png);
 }
-.container00.container09 {
+.container00.container08 {
   background-image: url(../imagens/hSpace/p_n01.png);
 }
 
