@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
 * {
   color: white;
 }
@@ -91,17 +92,14 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.2);
   }
-
   .container02 .btn,
 .container03 .btn {
     color: black;
   }
-
   .logoPc {
     width: 11em;
     margin-top: 1em;
   }
-
   .footer {
     font-size: 0.7em;
   }
@@ -140,7 +138,6 @@ body::-webkit-scrollbar-thumb:hover {
   .titlePadding {
     padding-top: 7.5em;
   }
-
   .shortTitle,
 .mediumTitle {
     width: auto;
@@ -156,8 +153,22 @@ body::-webkit-scrollbar-thumb:hover {
 .container00.container07 {
   background-image: url(../imagens/hSpace/img-bg_planet.png);
 }
+.container00.container07 .txt-c07 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 3em;
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0.1em 0em 0em black;
+}
 .container00.container08 {
   background-image: url(../imagens/hSpace/p_n01.png);
+  padding-top: 5em;
+}
+.container00.container08 .txt-c08 {
+  width: 80%;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 .container00.container05 {
